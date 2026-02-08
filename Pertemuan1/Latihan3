@@ -1,0 +1,9 @@
+P = 200000000 #Saldo Awal
+A = 400000000 #Target
+r = 0.10 #bunga per tahun sebesar 10%
+
+import math
+t = math.log(A / P) / math.log(1+r) #rumus untuk menghitung waktu yang dibutuhkan (dalam tahun)
+
+pembulatan = math.ceil(t) #untuk membulatkan ke atas hasil perhitungan
+print(pembulatan)
