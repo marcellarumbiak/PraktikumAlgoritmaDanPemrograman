@@ -1,0 +1,33 @@
+beratEmas_dlm_Gram = 25
+hargaBeliperGram = 650000
+hargaSekarangperGram = 685000
+modal = beratEmas_dlm_Gram * hargaBeliperGram
+print(modal)
+
+nilaiEmasSekarang = beratEmas_dlm_Gram * hargaSekarangperGram
+print(nilaiEmasSekarang)
+
+keuntungan = nilaiEmasSekarang - modal
+print(keuntungan)
+
+keuntungan_dlm_persen = (keuntungan / modal) * 100
+print(keuntungan_dlm_persen)
+
+beliEmaslagi = 15
+hargaBeliKedua = 685000
+total_modal2 = beliEmaslagi * hargaBeliKedua
+print(total_modal2)
+
+TotalModalEmas = modal + total_modal2
+print(TotalModalEmas)
+
+totalBeratEmas = 40
+hargaEmasTerbaru = 715000
+nilaiEmasTerbaru = totalBeratEmas * hargaEmasTerbaru
+print(nilaiEmasTerbaru)
+
+keuntunganTerbaru = nilaiEmasTerbaru - TotalModalEmas
+print(keuntunganTerbaru)
+
+totalKeuntungan_dlm_Persen = (keuntunganTerbaru / TotalModalEmas) * 100
+print(totalKeuntungan_dlm_Persen)
