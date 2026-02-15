@@ -1,0 +1,5 @@
+#menghitung nilai fungsi
+x = int(input('masukkan nilai x (bilangan bulat): '))
+hasil = (2*(x**3)) + (2*x) + (15/x)
+
+print('nilai f(x) adalah = ', hasil)
