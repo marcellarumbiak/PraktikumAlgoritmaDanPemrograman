@@ -1,0 +1,22 @@
+#BUDI
+gaji_per_jam = float(input('masukkan gaji per jam yang budi inginkan: '))
+jam_per_minggu = float(input('masukkan jumlah jam kerja yg akan dilakukan dalam 1 minggu: '))
+
+penghasilan_kotor = gaji_per_jam * jam_per_minggu
+print('Pendapatan Budi selama libur musim panas sebelum melakukan pembayaran pajak: ', round(penghasilan_kotor))
+pajak = 0.14
+penghasilan_bersih = penghasilan_kotor - pajak
+print('Pendapatan Budi selama libur musim panas setelah melakukan pembayaran pajak: ', round(penghasilan_bersih))
+
+baju = penghasilan_bersih * 0.10
+print('Jumlah uang yang akan Budi habiskan untuk membeli pakaian dan aksesoris: ', round(baju))
+alat_tulis = penghasilan_bersih * 0.01
+print('Jumlah uang yang akan Budi habiskan untuk membeli alat tulis: ', round(alat_tulis))
+
+uang_sisa = penghasilan_bersih - baju - alat_tulis
+sedekah = uang_sisa * 0.25
+print('Jumlah uang yang akan Budi sedekahkan: ', round(sedekah))
+yatim = sedekah * 0.30
+print('Jumlah uang yang akan diterima anak yatim: ', round(yatim))
+dhuafa = sedekah * 0.70
+print('Jumlah uang yang akan diterima kaum dhuafa: ', round(dhuafa))
